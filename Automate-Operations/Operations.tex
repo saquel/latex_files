@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{tikz}
+
+
+\pgfmathsetseed{\number\pdfrandomseed}
+\newcommand*\PlaceHolder{\rule{1.5em}{0.3pt}}
+\newcommand*\MyOp{?}
+\newif\ifRgoesF% reads: if result goes first
+\newcommand*{\NewNumbers}{%
+	\pgfmathsetmacro{\Op}{random(0,3)}% kind of operation + - * /
+	\pgfmathsetmacro{\Le}{random(0,2)}% which part to leave out
+	\pgfmathsetmacro{\A}{random(0,10)}%
+	\pgfmathsetmacro{\B}{random(0,10)}%
+	\ifnum\Op > 1
+	\pgfmathsetmacro{\C}{int(\A*\B)}% multiplication (or division)
+	\else
+	\pgfmathsetmacro{\C}{int(\A+\B)}% addition (or substraction)
+	\fi
+	\ifcase \Op
+	\renewcommand*\MyOp{+}%
+	\RgoesFfalse % \A + \B = \C
+	\or
+	\renewcommand*\MyOp{-}%
+	\RgoesFtrue % \C - \B = \A
+	\or
+	\renewcommand*\MyOp{\cdot}%
+	\RgoesFfalse % \A * \B = \C
+	\or
+	\renewcommand*\MyOp{/}%
+	\RgoesFtrue % \C / \B = \A
+	\else
+	\typeout{This should not have happened...don't know operation `\Op'}%
+	\fi
+	\[
+	\ifcase \Le
+	\PlaceHolder \MyOp \B = \ifRgoesF\A\else\C\fi
+	\or
+	\ifRgoesF
+	\C \MyOp \PlaceHolder = \A
+	\else
+	\A \MyOp \PlaceHolder = \C
+	\fi
+	\or      
+	\ifRgoesF\C\else\A\fi \MyOp \B = \PlaceHolder
+	\else
+	? ?? ??? = ????
+	\fi
+	\]
+}
+\newcommand*\GetSomeEquations[1][20]{%
+	\foreach \Lp in {1,...,#1}{%
+		\NewNumbers
+	}%
+}
+\begin{document}
+	\GetSomeEquations
+\end{document}
