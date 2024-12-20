@@ -1,0 +1,130 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[hmargin={2cm}]{geometry}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+\begin{document}
+	Entre os colchetes do \itshape \textbf{documentclass} \normalfont posso utilizar algumas opções, entre elas são:
+	
+\begin{enumerate}
+	\item dsadsa
+\end{enumerate}	
+	
+\Large Durante o texto podemos utilizar algumas \itshape \textbf {formatações de fontes} \normalfont das quais listo logo abaixo:\\ \normalsize
+
+\begin{enumerate}
+	\item Font Styles
+		\begin{enumerate}
+			\item {\LARGE{\textit{Texto em Itálico}}}
+				\begin{enumerate}
+					\item o \textbackslash textit é igual o \textbackslash itshape
+				\end{enumerate}
+			\item {\LARGE\textbf{Texto em Negrito}}
+				\begin{enumerate}
+					\item o \textbackslash textbf é igual o \textbackslash bfseries
+				\end{enumerate}
+			\item {\LARGE\textsc{Texto em Pequenas letras maiúsculas}}
+				\begin{enumerate}
+					\item o \textbackslash textsc é igual o \textbackslash scshape
+				\end{enumerate}
+			\item {\normalfont\LARGE{Normal fonte}}
+			\begin{enumerate}
+				\item o \textbackslash normalfont é igual o \textbackslash scshape
+			\end{enumerate}	
+				
+		\end{enumerate}
+	\item Default font families
+		\begin{enumerate}
+			\item {\LARGE{\texttt{typewriter (monospace)}}}
+			\begin{enumerate}
+				\item o \textbackslash texttt é igual o \textbackslash ttfamily
+			\end{enumerate}
+			\item {\LARGE\textsf{sans serif}}
+			\begin{enumerate}
+				\item o \textbackslash textsf é igual o \textbackslash sffamily
+			\end{enumerate}
+			\item {\LARGE\textrm{serif (roman)}}
+			\begin{enumerate}
+				\item o \textbackslash textrm é igual o \textbackslash rmfamily
+			\end{enumerate}
+		\end{enumerate}
+	\item Font sizes
+		\begin{itemize}
+			\item{
+			\verb=\tiny         =  {\ttfamily \tiny  5pt 	}\\
+			\verb=\scriptsize   =  {\ttfamily \scriptsize 7pt 	}\\
+			\verb=\footnotesize =  {\ttfamily \footnotesize 8pt		}\\
+			\verb=\small        =  {\ttfamily \small 9pt 	}\\
+			\verb=\normalsize   =  {\ttfamily \normalsize 10pt	}\\
+			\verb=\large        =  {\ttfamily \large 12pt	}\\
+			\verb=\Large        =  {\ttfamily \Large 14.4pt 	}\\ 
+			\verb=\LARGE        =  {\ttfamily \LARGE 17.28pt	}\\
+			\verb=\huge         =  {\ttfamily \huge 20.74pt }\\
+			\verb=\Huge         =  {\ttfamily \Huge 24.88pt }\\
+			}
+		\end{itemize}
+	\item Espaçamentos
+		\begin{enumerate}
+			\item Entre palavras
+				\begin{itemize}
+					\item \textbackslash quad 
+					
+				\end{itemize}
+			\item Entre linhas
+				\begin{itemize}
+					\item Para utilizar o espaçamento entre linhas utilizamos o pacote \textbackslash usepackage\{setspace\}. \\ Esses comandos terão efeito até à proxima instrução que altere o espaçamento.
+					\item \textbackslash{}singlespacing Para um espaçamento simples
+					\item \textbackslash{}onehalfspacing Para um espaçamento de 1,5
+					\item \textbackslash{}doublespacing Para um espaçamento duplo
+				
+				\end{itemize}
+		\end{enumerate}
+\end{enumerate}
+
+\Large \textbf{Outros tipos de caracter que podem ser uteis}\\ \normalsize
+	\begin{enumerate}
+		\item Barra invertida (Backslash)
+		\begin{itemize}
+			\item Para utiliar a barra invertida deve utilizar o comando \textbackslash textbackslash
+			\item Ou podemos utilizar dentro de uma formula matemática \$$\backslash$backslash\$
+		\end{itemize}
+		\item Arrows (Setas)
+		\begin{itemize}
+			\item  $\backslash$ \textbackslash longleftarrow \quad $\longleftarrow$ 
+			\item $\backslash$ longleftrightarrow \quad $\longleftrightarrow$
+			\item $\backslash$ longmapsto \quad $\longmapsto$
+			\item $\backslash$ longrightarrow \quad$\longrightarrow$
+			\item $\backslash$ arrowvert \quad $\arrowvert$
+		\end{itemize}
+	
+\end{enumerate}
+	
+\newpage
+
+\begin{minipage}[c][1.5cm][c]{3.5cm}
+\includegraphics[height=1cm]{imagens/logo.png}
+\end{minipage}
+\begin{minipage}[c][1.5cm][c]{10cm}
+	 \centering \textsc{Ministério da Educação}
+\end{minipage}
+\begin{minipage}[c][1.5cm][c]{5cm}
+	Data: 16/dez/2024
+	
+	Ano: 8º
+	
+	Turma: B
+\end{minipage}
+
+\vspace{.5cm}
+
+Nome:\hrulefill \, N.o: \rule{.5cm}{.1mm}
+\vspace{1cm}
+
+Classificação: \hrulefill \, O Professor: \hrulefill
+
+
+\end{document}
