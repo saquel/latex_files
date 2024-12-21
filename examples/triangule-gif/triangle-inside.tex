@@ -1,0 +1,45 @@
+% Latexdraw.com tutotiral
+% TikZ shapes: Isosceles triangle
+% 
+
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+
+\begin{document}
+	\foreach \i in {-30,-28,...,0}
+	{		
+	\begin{tikzpicture}[thick,violet]
+		\node [draw, fill=violet!10, isosceles triangle, isosceles triangle apex angle=60, minimum size=-2*\i mm, rotate=\i,inner sep=0pt] at(0,0) {};
+	\end{tikzpicture}
+	}	
+	
+\end{document}/
+
+
+
+
+
+
+
+% Here is the normal exemple of tikzpicture draw with foreach
+% To begin with, we need to change the option of documentclass to tikz
+% We need move foreach outside tikzpicture enviroment and now we have one document per loop that was we want to build a gif
+
+% site we can do the gif https://ezgif.com/
+% we need select effects-> in Replace color with transparency: custom (HEX): #ffffff and uncheck stack frames
+% apply selected and done!
+
+
+%\documentclass[border=0.2cm]{standalone}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes.geometric}
+
+%\begin{document}
+%	\begin{tikzpicture}[thick,violet]
+%		\foreach \i in {-30,-28,...,0}
+%		{
+%			\node [draw, fill=violet!10, isosceles triangle, isosceles triangle apex angle=60, minimum size=-2*\i mm, rotate=\i,inner sep=0pt] at(0,0) {};
+%		}	
+%	\end{tikzpicture}	
+%\end{document}/
