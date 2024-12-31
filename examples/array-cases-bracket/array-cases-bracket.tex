@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage{systeme}
+
+\usepackage{amsmath}
+\usepackage{unicode-math}
+
+\usepackage{multirow,bigdelim}
+
+
+\begin{document}
+	
+	\[
+	\sysdelim{.}{\rbrace}
+	\sysalign{r,r}
+	\systeme{
+		x+y=7,
+		5x-2y=-7
+	}
+	\]
+	
+	
+	\vspace{1cm}
+	
+	\[
+	\left.
+	\begin{alignedat}{3}
+		x +{}&& y ={}&& 7\\
+		5x -{}&& 2y ={}&& -7
+	\end{alignedat}
+	\right\}
+	\]
+	
+	
+	\[
+	\left.
+	\begin{aligned}
+		x + y   &= 7 \\
+		5x - 2y &= -7
+	\end{aligned}
+	\right\}
+	\]
+	
+	\begin{align}
+		BP = 
+		\begin{cases}  
+			1 & neu \space c > r \\e^{1-\frac{r}{c}} & neu c \leq r 
+		\end{cases}
+	\end{align}
+	
+	
+	\begin{align}
+		BP = 
+		\begin{cases} 
+	 		1 & \text{neu } c > r \\e^{1-\frac{r}{c}} & \text{neu } c \leq r 
+	 	\end{cases}
+	\end{align}
+	
+	
+	\[
+	\begin{array}{rcl}
+		& \Gamma & \\
+		\multirow{3}{*}{$\mathcal{D}_3 \bigg\{$} 
+		& \mathcal{D}_1 & \\
+		& A & \\
+		& \mathcal{D}_2 & \multirow{2}{*}{$\bigg\} \mathcal{D}_5$} \\
+		& B & \\
+		& \mathcal{D}_4 & \\
+		& C &
+	\end{array}
+	\]
+	
+	
+	\[
+	%\begin{array}{rcl}
+	\begin{array}{r@{}c@{}l}
+		& \Gamma & \\
+		%\multirow{3}{*}{$\mathcal{D}_3 \bigg\{$} 
+		\multirow{3}{*}{$\mathcal{D}_3 \Bigg\{$} 
+		& \mathcal{D}_1 & \\
+		& A & \\
+		& \mathcal{D}_2 & \multirow{2}{*}{$\bigg\} \mathcal{D}_5$} \\
+		& B & \\
+		& \mathcal{D}_4 & \\
+		& C &
+	\end{array}
+	\]
+	
+	
+	
+\end{document}
