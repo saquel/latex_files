@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  28 DEC 2024 13:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  30 DEC 2024 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,15 +117,42 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \thm@headsep=\skip58
 \dth@everypar=\toks27
 )
-\labelwd=\skip59
+(C:\Users\Isaque\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Isaque\AppData\Local\Programs\MiKTeX\tex/latex/tasks\tasks.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks29
+
+(C:\Users\Isaque\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+)
+\labelwd=\skip59
+ (C:\Users\Isaque\AppData\Local\Programs\MiKTeX\tex/latex/tasks\tasks.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-11-02 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
+\l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box55
 ))
 (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
@@ -135,33 +162,33 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
 )
 Package: tasks 2022/01/08 v1.4a lists with columns filled horizontally
-\g__tasks_total_items_int=\count283
-\l__tasks_columns_int=\count284
-\g__tasks_rows_int=\count285
-\g__tasks_current_col_num_int=\count286
-\g__tasks_current_row_num_int=\count287
-\l__tasks_item_columns_int=\count288
-\g__tasks_env_int=\count289
-\l__tasks_start_int=\count290
-\l__tasks_item_indent_dim=\dimen153
-\l__tasks_item_default_indent_dim=\dimen154
-\l__tasks_item_width_dim=\dimen155
-\l__tasks_label_width_dim=\dimen156
-\l__tasks_label_default_width_dim=\dimen157
-\l__tasks_label_offset_dim=\dimen158
-\l__tasks_label_default_offset_dim=\dimen159
-\l__tasks_column_sep_dim=\dimen160
-\l__tasks_correction_dim=\dimen161
-\l__tasks_full_width_dim=\dimen162
+\g__tasks_total_items_int=\count286
+\l__tasks_columns_int=\count287
+\g__tasks_rows_int=\count288
+\g__tasks_current_col_num_int=\count289
+\g__tasks_current_row_num_int=\count290
+\l__tasks_item_columns_int=\count291
+\g__tasks_env_int=\count292
+\l__tasks_start_int=\count293
+\l__tasks_item_indent_dim=\dimen161
+\l__tasks_item_default_indent_dim=\dimen162
+\l__tasks_item_width_dim=\dimen163
+\l__tasks_label_width_dim=\dimen164
+\l__tasks_label_default_width_dim=\dimen165
+\l__tasks_label_offset_dim=\dimen166
+\l__tasks_label_default_offset_dim=\dimen167
+\l__tasks_column_sep_dim=\dimen168
+\l__tasks_correction_dim=\dimen169
+\l__tasks_full_width_dim=\dimen170
 \l__tasks_after_item_skip=\skip60
 \l__tasks_custom_after_item_skip=\skip61
 \l__tasks_before_list_skip=\skip62
 \l__tasks_after_list_skip=\skip63
 \l__tasks_item_coffin=\box56
 \l__tasks_label_coffin=\box57
-\c@task=\count291
-\l__tasks_tmpa_int=\count292
-\l__tasks_tmpb_int=\count293
+\c@task=\count294
+\l__tasks_tmpa_int=\count295
+\l__tasks_tmpb_int=\count296
 \l__tasks_tmpa_coffin=\box58
 \l__tasks_tmpa_box=\box59
 
@@ -171,192 +198,402 @@ LaTeX template Info: Declaring template type 'tasks' taking 3 argument(s) on
 
 (C:\Users\Isaque\AppData\Local\Programs\MiKTeX\tex/latex/tasks\tasks.cfg))
 
-Package tasks Warning: You've tried setting option `counter-format' on line
-(tasks)                12. However, option `counter-format' is deprecated.
-(tasks)                Please use option `label' instead. Refer to the manual
-(tasks)                for details.
+Package tasks Warning: You've tried setting option `counter-format' on line 9.
+(tasks)                However, option `counter-format' is deprecated. Please
+(tasks)                use option `label' instead. Refer to the manual for
+(tasks)                details.
 
 (C:\Users\Isaque\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks28
 \labelindent=\skip64
-\enit@outerparindent=\dimen163
-\enit@toks=\toks29
+\enit@outerparindent=\dimen171
+\enit@toks=\toks30
 \enit@inbox=\box60
-\enit@count@id=\count294
-\enitdp@description=\count295
+\enit@count@id=\count297
+\enitdp@description=\count298
 ) (task-ex1.aux)
 \openout1 = `task-ex1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
 
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside showframe 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=1.12738pt
+* \headheight=8.0pt
+* \headsep=14.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=90.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=7.0pt plus 11.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package tasks Warning: The width of `item-indent' is too small on line 33.
+
+
+Package tasks Warning: The width of `item-indent' is too small on line 28.
 (tasks)                Please set it at least to 33.31934pt.
 
 
-Package tasks Warning: The width of `label-width' is too small on line 33.
+Package tasks Warning: The width of `label-width' is too small on line 28.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 33--33
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 28--28
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 33.
+Package tasks Warning: The width of `label-width' is too small on line 28.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 33--33
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 28--28
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 33.
+Package tasks Warning: The width of `label-width' is too small on line 28.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 33--33
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 28--28
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 33.
+Package tasks Warning: The width of `label-width' is too small on line 28.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 33--33
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 28--28
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 33.
+Package tasks Warning: The width of `label-width' is too small on line 28.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 33--33
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 28--28
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `item-indent' is too small on line 44.
+Package tasks Warning: The width of `item-indent' is too small on line 37.
 (tasks)                Please set it at least to 33.31934pt.
 
 
-Package tasks Warning: The width of `label-width' is too small on line 44.
+Package tasks Warning: The width of `label-width' is too small on line 37.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 44--44
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 37--37
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 44.
+Package tasks Warning: The width of `label-width' is too small on line 37.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 44--44
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 37--37
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 44.
+Package tasks Warning: The width of `label-width' is too small on line 37.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 44--44
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 37--37
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 44.
+Package tasks Warning: The width of `label-width' is too small on line 37.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 44--44
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 37--37
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 44.
+Package tasks Warning: The width of `label-width' is too small on line 37.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 44--44
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 37--37
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `item-indent' is too small on line 73.
+Package tasks Warning: You've tried setting option `counter-format' on line
+(tasks)                45. However, option `counter-format' is deprecated.
+(tasks)                Please use option `label' instead. Refer to the manual
+(tasks)                for details.
+
+
+Package tasks Warning: The width of `item-indent' is too small on line 45.
 (tasks)                Please set it at least to 33.31934pt.
 
 
-Package tasks Warning: The width of `label-width' is too small on line 73.
+Package tasks Warning: The width of `label-width' is too small on line 45.
+(tasks)                Please set it at least to 26.02783pt.
+
+
+Overfull \hbox (2.70851pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 tsk[R]| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 45.
+(tasks)                Please set it at least to 26.02783pt.
+
+
+Overfull \hbox (2.70851pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 tsk[R]| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 45.
+(tasks)                Please set it at least to 26.02783pt.
+
+
+Overfull \hbox (2.70851pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 tsk[R]| 
+ []
+
+
+Package tasks Warning: The width of `item-indent' is too small on line 53.
+(tasks)                Please set it at least to 33.31934pt.
+
+
+Package tasks Warning: The width of `label-width' is too small on line 53.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 73--73
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 53--53
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 73.
+Package tasks Warning: The width of `label-width' is too small on line 53.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 73--73
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 53--53
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 73.
+Package tasks Warning: The width of `label-width' is too small on line 53.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 73--73
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 53--53
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 73.
+Package tasks Warning: The width of `label-width' is too small on line 53.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 73--73
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 53--53
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 73.
+Package tasks Warning: The width of `label-width' is too small on line 53.
 (tasks)                Please set it at least to 34.72339pt.
 
 
-Overfull \hbox (11.40407pt too wide) in paragraph at lines 73--73
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 53--53
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `item-indent' is too small on line 62.
+(tasks)                Please set it at least to 33.31934pt.
+
+
+Package tasks Warning: The width of `label-width' is too small on line 62.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 62--62
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 62.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 62--62
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 62.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 62--62
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 62.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 62--62
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 62.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 62--62
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: You've tried setting option `counter-format' on line
+(tasks)                69. However, option `counter-format' is deprecated.
+(tasks)                Please use option `label' instead. Refer to the manual
+(tasks)                for details.
+
+
+Package tasks Warning: The width of `item-indent' is too small on line 69.
+(tasks)                Please set it at least to 33.31934pt.
+
+
+Package tasks Warning: The width of `label-width' is too small on line 69.
+(tasks)                Please set it at least to 26.02783pt.
+
+
+Overfull \hbox (2.70851pt too wide) in paragraph at lines 69--69
+ \OT1/cmr/m/n/10 tsk[R]| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 69.
+(tasks)                Please set it at least to 26.02783pt.
+
+
+Overfull \hbox (2.70851pt too wide) in paragraph at lines 69--69
+ \OT1/cmr/m/n/10 tsk[R]| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 69.
+(tasks)                Please set it at least to 26.02783pt.
+
+
+Overfull \hbox (2.70851pt too wide) in paragraph at lines 69--69
+ \OT1/cmr/m/n/10 tsk[R]| 
+ []
+
+
+Package tasks Warning: The width of `item-indent' is too small on line 77.
+(tasks)                Please set it at least to 33.31934pt.
+
+
+Package tasks Warning: The width of `label-width' is too small on line 77.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 77--77
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 77.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 77--77
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 77.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 77--77
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 77.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 77--77
+ \OT1/cmr/bx/n/10 tsk[a].)| 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 77.
+(tasks)                Please set it at least to 34.72339pt.
+
+
+Overfull \hbox (11.40407pt too wide) in paragraph at lines 77--77
  \OT1/cmr/bx/n/10 tsk[a].)| 
  []
 
@@ -370,20 +607,20 @@ L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2424 strings out of 473650
- 39146 string characters out of 5727956
- 441227 words of memory out of 5000000
- 25390 multiletter control sequences out of 15000+600000
+ 3058 strings out of 473650
+ 49271 string characters out of 5727956
+ 463444 words of memory out of 5000000
+ 26004 multiletter control sequences out of 15000+600000
  563781 words of font info for 59 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 71i,8n,79p,247b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 71i,5n,79p,279b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on task-ex1.pdf (1 page, 72066 bytes).
+Output written on task-ex1.pdf (1 page, 72231 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

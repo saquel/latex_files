@@ -1,28 +1,23 @@
 \documentclass{amsart}
-
+\usepackage[showframe]{geometry}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-
 \newlength\labelwd
 \settowidth\labelwd{\bfseries viii.)}
-
 \usepackage{tasks}
-
 \settasks{counter-format =tsk[a].), label-format=\bfseries, label-offset=1em, label-align=right, label-width
 	=\labelwd, before-skip =\smallskipamount, after-item-skip=0pt}
-	
-\usepackage{enumitem}
-
-\setlist[enumerate,1]{% (
-	leftmargin=*, itemsep=12pt, label={\textbf{\arabic*.)}}}
+\usepackage[inline]{enumitem}
+\setlist[enumerate]{% (
+	labelindent = 0pt, leftmargin=*, itemsep=12pt, label={\textbf{\arabic*.)}}}
 
 
 \begin{document}
 	
 	
 	\begin{center}\Large{\textbf{Elementary Number Theory}}\end{center}\vskip0.25in
-	
-	\begin{enumerate}[itemsep=\baselineskip]
+	%\setlist[enumerate, 1]{itemsep=\baselineskip}
+	\begin{enumerate}
 		\item How many positive integers less than 100 have a remainder of 3 upon division by 7?
 		\begin{tasks}(3)
 			\task 10
@@ -31,9 +26,7 @@
 			\task 13
 			\task 14
 		\end{tasks}
-	\end{enumerate}
-	
-	\begin{enumerate}[start=2, itemsep=\baselineskip]
+		
 		\item For every natural number $n$, $\tau(n)$ is the number of positive divisors of $n$. Evaluate $\tau^{3}(12)$.
 		\begin{tasks}(3)
 			\task 1
@@ -42,27 +35,23 @@
 			\task 4
 			\task 6
 		\end{tasks}
-	\end{enumerate}
-	
-	
-	
-	\noindent {\textbf{3.) }}$p$ and $q$ are prime numbers greater than 2. which of the following statements must be true? \\
-	\hspace*{3em} \hphantom{3.)\ }
-	\begin{tabular}{r l}
-		{\bf I}     &   \hspace*{-0.5em}$p + q$ is even. \\
-		{\bf II}    &   \hspace*{-0.5em}$pq$ is odd. \\
-		{\bf III}   &   \hspace*{-0.5em}$p^{2} - q^{2}$ is even
-	\end{tabular}
-	\begin{tabbing}
-		\hspace*{2em} \= \hspace{2.5in} \= \kill
-		\> {\textbf{a.) }}I only        \> {\textbf{b.) }}II only \\
-		\> {\textbf{c.) }}I and II only \> {\textbf{d.) }}I and III only \\
-		\> {\textbf{e.) }}I, II, and III
-	\end{tabbing}
-	\vskip0.25in
-	
-	
-	\begin{enumerate}[start=4, itemsep=\baselineskip]
+		
+		\item $p$ and $q$ are prime numbers greater than 2. Consider the following statements:
+		
+		\begin{tasks}[counter-format = tsk[R], label-format=\normalfont, after-skip=1\medskipamount](3)
+			\task $p + q$ is even.
+			\task $pq$ is odd.
+			\task $p^{2} - q^{2}$ is even
+		\end{tasks}
+		Which of the following must be true?
+		\begin{tasks}(3)
+			\task I only
+			\task II only
+			\task I and II only
+			\task I and III only
+			\task I, II, and III
+		\end{tasks}
+		
 		\item How many integers less than 1000 are such that the remainder upon division by each of 2, 3, 4, 5, 6, and 7 is 1?
 		\begin{tasks}(3)
 			\task 0
@@ -71,22 +60,21 @@
 			\task 3
 			\task 4
 		\end{tasks}
-	\end{enumerate}
-	
-	
-	\noindent {\textbf{5.) }}$n$ is a positive integer. Which of the following quantities is divisible by 3? \\
-	\hspace*{3em} \hphantom{3.)\ }
-	\begin{tabular}{r l}
-		{\bf I}     &   \hspace*{-0.5em}$n^{3} - 1$ \\
-		{\bf II}    &   \hspace*{-0.5em}$n^{3} + 1$ \\
-		{\bf III}   &   \hspace*{-0.5em}$n^{3} + 2n$
-	\end{tabular}
-	\begin{tabbing}
-		\hspace*{2em} \= \hspace{2.5in} \= \kill
-		\> {\textbf{a.) }}I only        \> {\textbf{b.) }}II only \\
-		\> {\textbf{c.) }}I and II only \> {\textbf{d.) }}II and III only \\
-		\> {\textbf{e.) }}I, II, and III
-	\end{tabbing}
 		
+		\item $n$ is a positive integer. Consider the following quantities:
+		\begin{tasks}[counter-format = tsk[R], label-format=\normalfont,  after-skip=1\medskipamount](3)
+			\task $n^{3} - 1$ \
+			\task $n^{3} + 1$
+			\task $n^{3} + 2n$
+		\end{tasks}
+		Which is divisible by 3?
+		\begin{tasks}(3)
+			\task I only
+			\task II only
+			\task I and II only
+			\task II and III only
+			\task I, II, and III
+		\end{tasks}
+	\end{enumerate}
 	
 \end{document}

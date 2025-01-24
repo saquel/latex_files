@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{pgffor} % For the foreach loop
+\usepackage{xifthen} % For conditional logic
+\usepackage{catchfile} % To capture shell command output
+
+% Command to count the total number of exercises in a folder
+\newcommand{\countExercises}[1]{%
+	\CatchFileDef{\tempfilecount}{|ls #1 | wc -l}{}%
+	\tempfilecount
+}
+
+% Command to include exercises based on difficulty
+\newcommand{\includeExercisesWithCount}[2]{%
+	% #1: Category (easy, middle, hard)
+	% #2: Number of exercises to include
+	\foreach \x in {1,...,#2} {%
+		\section*{#1 Exercise \x}
+		\IfFileExists{#1/ex\x.tex}{%
+			\input{#1/ex\x.tex} % Includes the file if it exists
+		}{%
+			\textbf{File #1/ex\x.tex does not exist.} % Error message if file is missing
+		}%
+	}%
+	
+	% Calculate how many files are left in the folder
+	\CatchFileDef{\totalExercises}{|ls #1 | wc -l}{}%
+	\pgfmathsetmacro{\remainingExercises}{\totalExercises - #2}
+	\ifthenelse{\remainingExercises > 0}{%
+		\hfill \textit{Have more \remainingExercises\ exercises.}%
+	}{%
+		\hfill \textit{No more exercises available.}%
+	}%
+}
+
+\begin{document}
+	
+	% Example usage:
+	% Include 2 exercises from the 'easy' category and count how many remain
+	\includeExercisesWithCount{easy}{1}
+	
+	% Include 1 exercise from the 'middle' category and count how many remain
+%	\includeExercisesWithCount{middle}{1}
+	
+\end{document}
