@@ -1,0 +1,104 @@
+\documentclass[12pt,a4paper]{book}
+
+% ========================
+% Pacotes
+% ========================
+\usepackage[utf8]{inputenc}   % Codificação
+\usepackage[T1]{fontenc}      % Fontes
+\usepackage[portuguese]{babel} % Idioma
+\usepackage{amsmath, amssymb, amsthm} % Matemática
+\usepackage{physics}          % Notação de física
+\usepackage{siunitx}          % Unidades
+\usepackage{graphicx}         % Inserir imagens
+\usepackage{tikz}             % Diagramas
+\usepackage{fancyhdr}         % Cabeçalhos personalizados
+\usepackage{hyperref}         % Links no documento
+\usepackage{xcolor}           % Cores
+\usepackage{geometry}
+\usepackage{multicol} % Texto em múltiplas colunas
+
+
+
+
+
+
+% ========================
+% Configurações
+% ========================
+\geometry{margin=2.5cm}        % Margens
+\pagestyle{fancy}              % Estilo do cabeçalho/rodapé
+\fancyhf{}
+\fancyhead[L]{Aulas de Física}
+\fancyhead[R]{\thepage}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=blue
+	pdftitle={Física - Introdução},
+	pdfauthor={Seu Nome}
+}
+% Configuração de links
+
+
+
+
+
+
+
+
+% ========================
+% comandos
+% ========================
+
+\newcommand{\mru}{\text{Movimento Retilíneo Uniforme}}
+\newcommand{\eqv}{\begin{equation} v = \frac{\Delta s}{\Delta t} \end{equation}}
+\newcommand{\nota}[1]{\textbf{\textit{#1}}}
+\newcommand{\highlight}[1]{\textcolor{blue}{\textbf{#1}}}
+
+
+
+
+% ========================
+% Teoremas
+% ========================
+
+\newtheorem{formula}{Formula}[]
+
+% ========================
+% Documento Principal
+% ========================
+\begin{document}
+	
+	\title{Aulas de Física}
+	\author{Isaque}
+	\date{\today}
+	\maketitle
+	
+	\tableofcontents
+	
+	% ========================
+	% Introdução
+	% ========================
+	\chapter{Introdução}
+	\input{introducao.tex}
+	
+	% ========================
+	% Capítulos Principais
+	% ========================
+	\chapter{Cinemática}
+	\input{cinematica.tex}
+	
+	\chapter{Dinâmica}
+	\input{dinamica.tex}
+	
+	\chapter{Energia e Trabalho}
+	\input{energia_trabalho.tex}
+	
+	% ========================
+	% Conclusão
+	% ========================
+	\chapter{Conclusão}
+	\input{conclusao.tex}
+	
+\end{document}
