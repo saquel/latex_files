@@ -1,5 +1,5 @@
 \babel@toc {portuguese}{}\relax 
 \contentsline {chapter}{\numberline {1}Exercícios Operações Básicas}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Lista 01 - Exercícios Operações Básicas}{5}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Exercícios Intergraus Matemática }{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Lista 01 - Intergraus Matemática}{7}{section.2.1}%
+\contentsline {chapter}{\numberline {2}Exercícios Intergraus Matemática }{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista 01 - Intergraus Matemática}{9}{section.2.1}%
