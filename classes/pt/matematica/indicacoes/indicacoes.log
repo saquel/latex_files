@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.3)  11 APR 2025 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.3)  11 APR 2025 09:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./potencia.tex
-(potencia.tex
+**./indicacoes.tex
+(indicacoes.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -287,23 +287,23 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box102
 )
-(potencia.aux)
-\openout1 = `potencia.aux'.
+(indicacoes.aux)
+\openout1 = `indicacoes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count300
@@ -359,104 +359,49 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
-
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 <exata.jpg, id=1, 1606.0pt x 1606.0pt>
 File: exata.jpg Graphic file (type jpg)
 <use exata.jpg>
-Package pdftex.def Info: exata.jpg  used on input line 138.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+Package pdftex.def Info: exata.jpg  used on input line 115.
+(pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
 <pei.jpg, id=2, 430.60875pt x 224.84pt>
 File: pei.jpg Graphic file (type jpg)
 <use pei.jpg>
-Package pdftex.def Info: pei.jpg  used on input line 138.
+Package pdftex.def Info: pei.jpg  used on input line 115.
 (pdftex.def)             Requested size: 113.81102pt x 59.4245pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 152.41373pt, for example:
-(fancyhdr)                \setlength{\headheight}{152.41373pt}.
+(fancyhdr)                Make it at least 95.50821pt, for example:
+(fancyhdr)                \setlength{\headheight}{95.50821pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-140.41373pt}.
+(fancyhdr)                \addtolength{\topmargin}{-83.50821pt}.
 
 [1
 
 {C:/Users/Isaque/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./exata.jpg
-> <./pei.jpg>]
-Overfull \hbox (73.54086pt too wide) in paragraph at lines 142--144
-[]\OT1/cmr/m/n/12 5. A massa do Sol ^^Se de $1980000000000000000000000000$ to-n
-e-la-das e a massa da Terra ^^Se de $5980000000000000000000000$
- []
-
-
-
-File: exata.jpg Graphic file (type jpg)
-<use exata.jpg>
-Package pdftex.def Info: exata.jpg  used on input line 148.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-File: pei.jpg Graphic file (type jpg)
-<use pei.jpg>
-Package pdftex.def Info: pei.jpg  used on input line 148.
-(pdftex.def)             Requested size: 113.81102pt x 59.4245pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 152.41373pt, for example:
-(fancyhdr)                \setlength{\headheight}{152.41373pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-140.41373pt}.
-
-[2]
-
-File: exata.jpg Graphic file (type jpg)
-<use exata.jpg>
-Package pdftex.def Info: exata.jpg  used on input line 236.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-File: pei.jpg Graphic file (type jpg)
-<use pei.jpg>
-Package pdftex.def Info: pei.jpg  used on input line 236.
-(pdftex.def)             Requested size: 113.81102pt x 59.4245pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 152.41373pt, for example:
-(fancyhdr)                \setlength{\headheight}{152.41373pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-140.41373pt}.
-
-[3] (potencia.aux)
+> <./pei.jpg>] (indicacoes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5240 strings out of 473574
- 81638 string characters out of 5726151
- 537752 words of memory out of 5000000
- 28382 multiletter control sequences out of 15000+600000
- 563666 words of font info for 57 fonts, out of 8000000 for 9000
+ 5189 strings out of 473574
+ 80939 string characters out of 5726151
+ 503762 words of memory out of 5000000
+ 28350 multiletter control sequences out of 15000+600000
+ 559319 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,65p,248b,427s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,16n,65p,229b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Isaque\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on potencia.pdf (3 pages, 347727 bytes).
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on indicacoes.pdf (1 page, 279813 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,89 @@
+\documentclass[a4paper, landscape]{article}
+\usepackage[brazil]{babel}
+\usepackage{fancyhdr}  % Pacote para editar cabeçalhos
+\usepackage{graphicx}   % Pacote para inserir imagens
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{multicol}
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
+\usepackage{enumitem}	
+\usepackage{float} %for figure
+\usepackage{titlesec}
+\usepackage{setspace} %space between lines
+\usepackage[many]{tcolorbox}  % for colores boxex (tikz and xcolor included)
+\titleformat{\section}{\footnotesize\bfseries}{\thesection}{1em}{}
+
+
+%\singlespacing 
+%\onehalfspacing %space between lines
+%\doublespacing
+
+% Remove a linha preta do cabeçalho
+%\renewcommand{\headrulewidth}{0pt}  
+
+
+%\pagestyle{fancy}  % Ativa o estilo de cabeçalho
+%\fancyhf{} % Limpa cabeçalhos e rodapés
+
+% Adiciona as imagens no cabeçalho, ajustando a escala conforme necessário
+%\fancyhead[L]{\hspace{5cm}\raisebox{-2cm}{\includegraphics[width=2cm]{exata.jpg}}}  % Esquerda
+%\fancyhead[R]{\hspace{1cm}\raisebox{-2cm}{\includegraphics[width=4cm]{pei.jpg}}} % Direita
+
+
+\newtcolorbox{boxA}{
+	fontupper = \bf,
+	boxrule = 1.5pt,
+	colframe = white  % frame color
+	%rounded corners
+	% arc = 5pt   % corners roundness	
+}
+
+\begin{document}	
+	
+
+
+	\fontsize{10}{15}\selectfont
+
+	\vspace*{0mm}
+	
+	\begin{multicols}{2}
+		
+	\section*{Orientações}
+		\begin{figure}[H]
+		\begin{center}
+			\includegraphics[keepaspectratio=true, scale=0.2]{pei.jpg}
+		\end{center}
+	\end{figure}
+	
+	\section*{Expressão Algébrica} 
+				
+	\begin{enumerate}
+		\item Para determinar seu lucro nas vendas do dia, em reais, Kátia usa a fórmula matemática:  
+		\boxed{  L = 8 \cdot u + 4,20  }
+		Sendo $L$, o lucro das vendas e $‘u’$ o número de unidades vendidas, qual o lucro de Kátia em um dia que ela vender 45 unidades do produto?
+		
+		\item Júnior é minerador de ouro. Certo dia teve que alugar uma máquina, cujo valor a pagar é calculado de acordo com a expressão do quadro abaixo. \boxed{  L = 280 \cdot D + 10 \cdot Q}
+		Nessa expressão, $V$ corresponde ao valor a pagar, $D$ ao número de dias e $Q$ aos quilômetros rodados. Se, Júnior, alugou por 7 dias e rodou 100 quilômetros, o valor a pagar pelo aluguel será:
+		
+		\item  Na expressão $x^2 + 5\cdot x - 8\cdot x \cdot y$. Calcule quando $x$ e $y$ assumir os valores: 
+		\vspace{-5mm}
+		\begin{multicols}{4}
+			\begin{enumerate}[]
+				\item $x = 2 $ \\ $y = 2 $
+				\item $x = 5 $ \\ $ y = -2 $
+				\item $x = -3$ \\ $ y = 4 $
+				\item $x = 2^3$ \\ $ y = 3^2 $
+			\end{enumerate}
+		\end{multicols}
+		
+		
+	\end{enumerate}
+	
+	\end{multicols}
+	
+		
+		
+		
+		
+		
+\end{document}

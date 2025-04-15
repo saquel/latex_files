@@ -1,23 +1,34 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[brazil]{babel}
+\usepackage{fancyhdr}  % Pacote para editar cabeçalhos
+\usepackage{graphicx}   % Pacote para inserir imagens
 \usepackage{amsmath, amssymb}
 \usepackage{geometry}
 \usepackage{multicol}
-\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
+\usepackage{enumitem}	
+\usepackage{titlesec}
+\titleformat{\section}{\footnotesize\bfseries}{\thesection}{1em}{}
 
-\begin{document}
-	
-	\title{Lista de Exercícios - Potenciação}
-	\author{Matemática - 8º Ano}
-	\date{\today}
-	\maketitle
-	
+
+% Remove a linha preta do cabeçalho
+\renewcommand{\headrulewidth}{0pt}  
+
+
+\pagestyle{fancy}  % Ativa o estilo de cabeçalho
+\fancyhf{} % Limpa cabeçalhos e rodapés
+
+% Adiciona as imagens no cabeçalho, ajustando a escala conforme necessário
+\fancyhead[L]{\hspace{7cm}\raisebox{-2cm}{\includegraphics[width=2cm]{exata.jpg}}}  % Esquerda
+\fancyhead[R]{\hspace{1cm}\raisebox{-5cm}{\includegraphics[width=4cm]{pei.jpg}}} % Direita
+
+\begin{document}	
 	\begin{multicols}{2}
 		
-		\section*{Definição de Potenciação}
-		Resolva as expressões abaixo:
+		\section*{Definição de Potenciação} \vspace{-5mm}
+		Resolva as expressões abaixo: \vspace{-4mm}
 		\begin{multicols}{3}
-		\begin{enumerate}
+		\begin{enumerate}[label=\roman*.]
 			\item $2^3$ \item  $2.5^2$ \item $(1.2)^4$
 			\item $5^4$ \item $0.4^3$ \item $\left(\dfrac{2}{3}\right)^2$
 			\item $7^2$ \item $1.1^5$ \item $\left(\dfrac{5}{8}\right)^3$
@@ -26,10 +37,10 @@
 		\end{enumerate}
 		\end{multicols}
 	
-		\section*{Propriedades da Potenciação}
-		Resolva aplicando as propriedades da potenciação:
+		\section*{Propriedades da Potenciação} \vspace{-5mm}
+		Resolva aplicando as propriedades da potenciação: \vspace{-4mm}
 		\begin{multicols}{2}
-		\begin{enumerate}
+		\begin{enumerate}[label=\roman*.]
 			\item $2^3 \times 2^4$
 			\item $5^6 \div 5^2$
 			\item $(3^2)^3$
@@ -39,18 +50,18 @@
 		\end{enumerate}
 		\end{multicols}
 		
-		\section*{Potências de Base 10}
-		Resolva as seguintes expressões:
-		\begin{enumerate}
+		\section*{Potências de Base 10} \vspace{-5mm}
+		Resolva as seguintes expressões: \vspace{-4mm}
+		\begin{enumerate}[label=\roman*.]
 			\item $10^3$;\quad $10^6$;\quad $10^{-2}$
 			\item $5 \times 10^4$;\quad $3,2 \times 10^{-3}$
 			\item $4,25 \times 10^{-5}$;\quad $23,06 \times 10^{-3}$
 		\end{enumerate}
 		
-		\section*{Potências de Expoente Negativo}
-		Reescreva as expressões com expoente positivo:
+		\section*{Potências de Expoente Negativo}\vspace{-5mm}
+		Reescreva as expressões com expoente positivo:\vspace{-4mm}
 		\begin{multicols}{2}
-		\begin{enumerate}
+		\begin{enumerate}[label=\roman*.]
 			\item $2^{-3}$
 			\item $5^{-2}$
 			\item $10^{-4}$
@@ -60,42 +71,45 @@
 		\end{enumerate}
 		\end{multicols}
 		
-		\section*{Substituição de Variáveis}
-		Considere $x = 2^3$, $y = 5^{-2}$ e $z = 10^1$. Substitua e resolva:
+		\section*{Substituição de Variáveis}\vspace{-5mm}
 		\begin{enumerate}
-			\item $x + y - z$
-			\item $\dfrac{x^2}{z} + y$
-			\item $(x \times y)^z$
-		\end{enumerate}
-		
-		\section*{Substituição de Variáveis}
-		\begin{enumerate}
-			\item Sendo $a=2^{7} \times 3^{8} \times 7$ e $b= 2^{5} \times 3^{6}$, o quociente de $a$ por $b$ é igual a:	
-			\begin{multicols}{2}	
-				\begin{enumerate}				
-					\item 252   \item 126
-					\item 36 	\item 48
-				\end{enumerate}
+			\item Considere $x = 2^3$, $y = 5^{-2}$ e $z = 10^1$. Substitua e resolva:\vspace{-5mm}
+			\begin{multicols}{2}
+			\begin{enumerate}[label=\roman*.]
+				\item $x + y - z$
+				\item $\dfrac{x^2}{z} + y$
+				\item $(x \times y)^z$
+				\item $(x \times z \times \dfrac{x}{z})$
+			\end{enumerate}
 			\end{multicols}
-			\item Um número é expresso por $(2^{6} \div 2^{4}) + 2^{2}$
-			\begin{multicols}{2}	
-				\begin{enumerate}				
-					\item $2^{3}$   \item $2^{0}$
-					\item $2^{4}$ 	\item $2^{5}$
-				\end{enumerate}
-			\end{multicols}
-			\item Se $x=3^{6}$ e $y=9^{3}$, podemos afirmar que:
-			
+			\item Sendo $a=2^{7} \times 3^{8} \times 7$ e $b= 2^{5} \times 3^{6}$, o quociente de $a$ por $b$ é igual a:	\vspace{-4mm}
+			% \begin{multicols}{2}	
+			%	\begin{enumerate}				
+			%		\item 252   \item 126
+			%		\item 36 	\item 48
+			%	\end{enumerate}
+			%\end{multicols}
+			\item Qual é o número expresso por $(2^{6} \div 2^{4}) + 2^{2}$\vspace{-4mm}
+		%	\begin{multicols}{2}	
+		%		\begin{enumerate}				
+		%			\item $2^{3}$   \item $2^{0}$
+		%			\item $2^{4}$ 	\item $2^{5}$
+		%		\end{enumerate}
+		%	\end{multicols}
+			\item Se $x=3^{6}$ e $y=9^{3}$, podemos afirmar que: \vspace{-5mm}
+			\begin{multicols}{2}
 				\begin{enumerate}				
 					\item $x$ é o dobro de y   \item $x=y$
 					\item $x-y=1$	\item $y$ é o triplo de x
 				\end{enumerate}
+			\end{multicols}
 		
 		\end{enumerate}
 		
 		
-		\section*{Expressões Numéricas com Potências}
-		Calcule o valor das expressões abaixo:
+		\section*{Expressões Numéricas com Potências} \vspace{-5mm}
+		Calcule o valor das expressões abaixo: \vspace{-3mm}
+		%\begin{multicols}{2}
 		\begin{enumerate}
 			\item $3^3 + 4^2 - 2^4$
 			\item $5^2 - 3^3 + 10^1$
@@ -114,6 +128,12 @@
 			\item Uma cidade tem uma população de $10^5$ habitantes. Se a população dobra a cada 20 anos, quantos habitantes haverá em 60 anos?
 			\item Um fio elétrico tem $10^{-3}$ metros de espessura. Quantos fios são necessários para formar 1 metro de espessura?
 			\item Um grão de arroz tem aproximadamente $5 \times 10^{-2}$ gramas. Quantos grãos são necessários para formar 1 quilograma?
+			\item Uma bactéria se divide a cada $20$ minutos, dobrando sua quantidade. Se inicialmente há $2^3$ 	bactérias (ou seja,$ 8$ bactérias), quantas bactérias haverá após $1$ hora?
+			\item Um terreno quadrado tem área de $2^8$
+			metros quadrados. Se ele for dividido em pequenos quadrados de área $2^3$
+			metros quadrados cada, quantos pequenos quadrados cabem no terreno? Em seguida, expresse o resultado como uma potência de $2$.
+			\item Uma população de bactérias cresce seguindo a fórmula 
+		$P =	5\times 2^{t/2}$, onde $t$ é o tempo em horas. Se inicialmente $(t=0)$ há 5 bactérias, calcule quantas haverá após $4$ horas e simplifique a expressão usando as regras de potenciação.
 		\end{enumerate}		
 	\end{multicols}
 
@@ -125,4 +145,92 @@
 		\item[(b)] Quantas vezes a massa do Sol é maior que a massa da Terra?
 	\end{enumerate}
 	
+	\newpage
+	
+	\section*{Indicações para estudos}
+	
+	\begin{enumerate}
+		\item \textbf{Canais em Português:}
+		\begin{itemize}
+			\item Matemática Rio (Rafael Procopio) - @MatematicaRio – Explicações didáticas e divertidas sobre diversos temas de matemática.
+			
+			\item	Ferretto Matemática - @professorferretto
+			– Focado no ensino médio, ENEM e vestibulares.
+			
+			\item Matemática com Rafa Jesus - Tá Lembrando? - @rafajesus\_talembrando
+			 – Aborda desde conteúdos básicos até os mais avançados.
+			
+		\item 	Vestibulandia - @nerckie
+	  – Muito útil para quem quer se aprofundar em matemática para concursos e vestibulares.
+			
+		\item	Khan Academy Brasil - @khanacademyportugue – Explicações detalhadas com vídeos bem organizados.
+			
+		\item	Dicasdemat Sandro Curió -
+		@sandrocuriodicasdemat
+		 – Explicações curtas e diretas sobre diversos tópicos.
+		 
+		 \item Gis com Giz Matemática - @Giscomgiz – Explicações curtas e diretas sobre diversos tópicos.
+			
+			\item Toda a Matemática
+			- @todaamatematica - A matemática das suas origens às últimas pesquisas.
+			
+			\item Professora Angela Matemática
+			- @professoraangelamatematica
+			- é possível aprender matemática e também gostar dela.
+			
+			\item Professor Dr. Rafael Bastos Mr. Bean da Matemática
+			- @mrbeandamatematica
+			- Com o Mr Bean da Matemática o aprendizado se torna muito mais fácil. 
+			
+			\item Estude Matemática
+			- @estudematematica - Conteúdo para entusiastas da Matemática...
+			
+			\item Universo Narrado
+			- @UniversoNarrado
+			- Narrativas que buscam explorar a beleza do universo por meio da ciência e da literatura.
+			
+			\item Prof. MURAKAMI - MATEMÁTICA RAPIDOLA
+			- @Murakami.
+		 - Aprenda em pouco tempo e de forma simples, temas em muitos casos considerados difíceis e tenha uma excelente preparação para as suas provas.
+		 
+		\end{itemize}
+	
+			\item \textbf{Canais em Inglês:}
+			
+			\begin{itemize}
+				\item 	3Blue1Brown - @3blue1brown– Explica matemática de forma visual e intuitiva.
+				
+				\item 	Khan Academy - @khanacademy – Um dos maiores canais educacionais, cobrindo desde matemática básica até cálculo avançado.
+				
+				\item 	Numberphile  - @numberphile – Explora conceitos matemáticos de forma curiosa e divertida.
+				
+				\item 	PatrickJMT - @patrickjmt – Explica matemática de forma clara e objetiva.
+				
+				\item 	Mathologer  - @Mathologer – Aborda matemática avançada com uma pegada histórica e visual.
+				
+				\item 	Eddie Woo - @misterwootube – Ensina matemática de maneira acessível e envolvente.
+							
+				
+				
+			\end{itemize}
+			
+			\item \textbf{Plataformas e Sites Educacionais:}
+			\begin{itemize}
+				\item 	Khan Academy – Plataforma gratuita com vídeos, exercícios e acompanhamento de progresso.
+				
+			\item	Brasil Escola – Explicações teóricas, exercícios e materiais de apoio.
+				
+		\item		Só Matemática – Exercícios, jogos matemáticos e materiais didáticos.
+				
+			\item 	Descomplica – Plataforma paga com aulas para ensino médio e vestibulares.
+				
+		\item		Fuvestibular – Material gratuito para vestibulares e Enem.
+			\end{itemize}
+		
+			
+			
+			
+	\end{enumerate}
+	
+
 \end{document}
