@@ -1,0 +1,77 @@
+\documentclass[a4paper,landscape]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage[many]{tcolorbox}
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
+
+\titleformat{\section}{\footnotesize\bfseries}{\thesection}{1em}{}
+
+\newtcolorbox{boxA}{
+	fontupper = \bf,
+	boxrule = 1.5pt,
+	colframe = white
+}
+
+\begin{document}
+	\fontsize{10}{15}\selectfont
+	
+	\noindent
+	\begin{minipage}[t]{0.49\textwidth}
+		\begin{center}
+			\includegraphics[width=3cm]{pei.jpg}
+		\end{center}
+		
+		\section*{Expressão Algébrica}
+		
+		\begin{enumerate}
+			\item Kátia usa a fórmula:  
+			\[ L = 8 \cdot u + 4{,}20 \]
+			Qual o lucro de Kátia se ela vender 45 unidades?
+			
+			\item Júnior aluga uma máquina com o valor:  
+			\[ V = 280 \cdot D + 10 \cdot Q \]
+			Se ele alugou por 7 dias e rodou 100 km, qual o valor total a pagar?
+			
+			\item Calcule \(x^2 + 5x - 8xy\), com:
+			\begin{itemize}[label={}]
+				\item \(x = 2,\ y = 2\)
+				\item \(x = 5,\ y = -2\)
+				\item \(x = -3,\ y = 4\)
+				\item \(x = 2^3,\ y = 3^2\)
+			\end{itemize}
+		\end{enumerate}
+	\end{minipage}	
+	\hfill	
+	\begin{minipage}[t]{0.49\textwidth}
+		\begin{center}
+			\includegraphics[width=3cm]{pei.jpg}
+		\end{center}
+		
+		\section*{Expressão Algébrica}
+		
+		\begin{enumerate}
+			\item Kátia usa a fórmula:  
+			\[ L = 8 \cdot u + 4{,}20 \]
+			Qual o lucro de Kátia se ela vender 45 unidades?
+			
+			\item Júnior aluga uma máquina com o valor:  
+			\[ V = 280 \cdot D + 10 \cdot Q \]
+			Se ele alugou por 7 dias e rodou 100 km, qual o valor total a pagar?
+			
+			\item Calcule \(x^2 + 5x - 8xy\), com:
+			\begin{itemize}[label={}]
+				\item \(x = 2,\ y = 2\)
+				\item \(x = 5,\ y = -2\)
+				\item \(x = -3,\ y = 4\)
+				\item \(x = 2^3,\ y = 3^2\)
+			\end{itemize}
+		\end{enumerate}
+	\end{minipage}
+	
+\end{document}
