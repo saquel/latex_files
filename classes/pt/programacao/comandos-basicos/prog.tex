@@ -1,0 +1,175 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}  % só se necessário
+\usepackage[brazil]{babel}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\geometry{a4paper, margin=2.5cm}
+
+\definecolor{codegray}{gray}{0.9}
+\definecolor{keywordcolor}{rgb}{0.0,0.0,0.7}
+\definecolor{stringcolor}{rgb}{0.2,0.6,0.2}
+
+\lstdefinestyle{pythonstyle}{
+	backgroundcolor=\color{codegray},
+	language=Python,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{keywordcolor}\bfseries,
+	stringstyle=\color{stringcolor},
+	commentstyle=\color{gray},
+	showstringspaces=false,
+	numbers=left,
+	numberstyle=\tiny,
+	frame=single,
+	breaklines=true
+}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{1em}{}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Python Básico}
+\lhead{Introdução}
+\rfoot{\thepage}
+
+\title{Introdução à Programação com Python}
+\author{Professor Isaque}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{O que é uma variável?}
+	Uma \textbf{variável} é um nome que damos a um espaço na memória do computador onde podemos guardar informações. Por exemplo:
+	
+	\begin{lstlisting}[style=pythonstyle]
+		nome = "Isaque"
+		idade = 13
+	\end{lstlisting}
+	
+	\section{Tipos de variáveis}
+	\begin{itemize}
+		\item \textbf{int}: números inteiros (ex: 10, -5)
+		\item \textbf{float}: números com vírgula (ex: 1.75)
+		\item \textbf{str}: texto (ex: "Olá")
+		\item \textbf{bool}: verdadeiro ou falso (True / False)
+	\end{itemize}
+	
+	\begin{lstlisting}[style=pythonstyle]
+		idade = 10
+		altura = 1.75
+		nome = "Joao"
+		ligado = True
+	\end{lstlisting}
+	
+	\section{Listas, Tuplas e Dicionários}
+	
+	\subsection*{Lista (list)}
+	Coleção de itens que pode mudar:
+	\begin{lstlisting}[style=pythonstyle]
+		frutas = ["maca", "banana", "uva"]
+	\end{lstlisting}
+	
+	\subsection*{Tupla (tuple)}
+	Coleção imutável:
+	\begin{lstlisting}[style=pythonstyle]
+		cores = ("azul", "vermelho", "verde")
+	\end{lstlisting}
+	
+	\subsection*{Dicionário (dict)}
+	Chaves com valores:
+	\begin{lstlisting}[style=pythonstyle]
+		aluno = {"nome": "Ana", "idade": 14}
+	\end{lstlisting}
+	
+	\section{Comando \texttt{print()}}
+	Usado para exibir algo na tela:
+	
+	\begin{lstlisting}[style=pythonstyle]
+		print("Ola, mundo!")
+		print("A soma e", 3 + 5)
+	\end{lstlisting}
+	
+	\section{F-strings e \texttt{.format()}}
+	Permite incluir variáveis dentro de textos:
+	
+	\begin{lstlisting}[style=pythonstyle]
+		idade = 14
+		print(f"Voce tem {idade} anos")
+		
+		nota = 9.5
+		print("Sua nota foi {:.1f}".format(nota))
+	\end{lstlisting}
+	
+	\section{Comando \texttt{input()}}
+	Lê uma informação do usuário:
+	\begin{lstlisting}[style=pythonstyle]
+		nome = input("Qual e o seu nome? ")
+		print(f"Ola, {nome}!")
+	\end{lstlisting}
+	
+	\section{Conversões \texttt{int()} e \texttt{float()}}
+	Convertem texto em número:
+	\begin{lstlisting}[style=pythonstyle]
+		idade = int(input("Digite sua idade: "))
+		altura = float(input("Digite sua altura: "))
+	\end{lstlisting}
+	
+	\section{Condicional \texttt{if/else}}
+	
+	Serve para fazer escolhas:
+	
+	\begin{lstlisting}[style=pythonstyle]
+		if idade >= 18:
+		print("Maior de idade")
+		else:
+		print("Menor de idade")
+	\end{lstlisting}
+	
+	\section{Repetição com \texttt{while}}
+	
+	Repete algo enquanto a condição for verdadeira:
+	
+	\begin{lstlisting}[style=pythonstyle]
+		numero = 1
+		while numero <= 5:
+		print(numero)
+		numero += 1
+	\end{lstlisting}
+	
+	\section{Repetição com \texttt{for}}
+	
+	Percorre uma sequência:
+	
+	\begin{lstlisting}[style=pythonstyle]
+		for i in range(1, 6):
+		print(i)
+	\end{lstlisting}
+	
+	\section{Resumo dos Comandos}
+	
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Comando} & \textbf{Função} \\
+		\hline
+		\texttt{print()} & Exibir na tela \\
+		\texttt{input()} & Entrada do usuário \\
+		\texttt{int()}   & Converter para inteiro \\
+		\texttt{float()} & Converter para decimal \\
+		\texttt{if/else} & Decisão \\
+		\texttt{while}   & Repetição condicional \\
+		\texttt{for}     & Repetição com sequência \\
+		\texttt{list[]}  & Lista (mutável) \\
+		\texttt{tuple()} & Tupla (imutável) \\
+		\texttt{dict\{\}}& Dicionário \\
+		\hline
+	\end{tabular}
+	
+\end{document}
